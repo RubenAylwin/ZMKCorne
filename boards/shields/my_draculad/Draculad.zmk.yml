@@ -1,0 +1,11 @@
+file_format: "1"
+id: Draculad
+name: Draculad
+type: shield
+url: https://github.com/RubenAylwin/Draculad/
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - Draculad_left
+  - Draculad_right
