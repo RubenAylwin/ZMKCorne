@@ -3,7 +3,6 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
-sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         keymap {
                 compatible = "zmk,keymap";
 
@@ -19,6 +18,7 @@ sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
  &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH 
                   &kp A &kp B &kp C   &kp RET &mo 2 &kp RALT
                         >;
+                        sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
                 };
                 lower_layer {
 // -----------------------------------------------------------------------------------------
