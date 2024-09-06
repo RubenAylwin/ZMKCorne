@@ -22,3 +22,5 @@ include:
     shield: Draculad_left
   - board: nice_nano_v2
     shield: Draculad_right
+  - board: nice_nano_v2
+    shield: settings_reset
