@@ -57,7 +57,7 @@
                         bindings = <
 &kp EXCL &kp SQT &kp LBRC   &kp RBRC   &kp PRCNT   &kp CARET &kp AMPS  &kp ASTRK &kp LPAR  &kp RPAR 
 &kp TAB   &trans &hm LSHFT LBKT   &hm LCTRL RBKT   &trans      &kp MINUS &hm LCTRL PLUS  &hm LSHFT EQUAL &hm LALT MINUS &kp BSLH 
-&kp GRAVE   &kp TLDE &kp LPAR  &kp RPAR   &trans      &kp UNDER &kp ASTRK &kp FSLH  &kp RBRC  &kp PIPE
+&kp GRAVE   &kp TILDE &kp LPAR  &kp RPAR   &trans      &kp UNDER &kp ASTRK &kp FSLH  &kp RBRC  &kp PIPE
          &trans &trans     &trans     &trans      &trans    &trans    &trans    &trans
                         >;
                         sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
