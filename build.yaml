@@ -18,7 +18,7 @@
 #
 ---
 include:
-  - board: nice_nano
+  - board: nrfmicro_11
     shield: draculad_left
-  - board: nice_nano
+  - board: nrfmicro_11
     shield: draculad_right
