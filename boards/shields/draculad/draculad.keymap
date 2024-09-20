@@ -1,7 +1,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
-// #include <dt-bindings/zmk/ext_power.h>
+#include <dt-bindings/zmk/ext_power.h>
 / {
 
         behaviors {
@@ -28,7 +28,7 @@
  &kp Q &kp W      &kp F    &kp P    &kp B   &kp J &kp L      &kp U     &kp Y   &kp SEMI    
  &kp A &hm LALT R      &hm LSHFT S    &hm LCTRL T    &kp G   &kp M &hm LCTRL N      &hm LSHFT E     &hm LALT I   &kp O 
  &kp Z &kp X      &kp C    &kp D    &kp V   &kp K &kp H      &kp COMMA &kp DOT &kp RET 
-       &kp C &kp LGUI &kp BSPC &mo 1   &mo 2 &kp SPACE  &kp ESC   &kp C
+       &ext_power EP_ON &kp LGUI &kp BSPC &mo 1   &mo 2 &kp SPACE  &kp ESC   &ext_power EP_OFF
                         >;
                         sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 
